@@ -1,0 +1,3 @@
+# Optional: resizes/compresses failure screenshots embedded in the HTML report.
+# Without it the report still works, with larger full-size PNGs.
+Pillow>=10.0

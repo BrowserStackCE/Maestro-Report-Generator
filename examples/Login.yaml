@@ -1,0 +1,8 @@
+appId: com.browserstack.demo-app
+---
+# ═══ TC01: Launch and open the login form ═══
+- launchApp
+- tapOn: "Email"
+
+# ═══ TC02: Welcome screen is shown ═══
+- assertVisible: "Welcome"

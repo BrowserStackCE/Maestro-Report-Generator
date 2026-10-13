@@ -1,0 +1,11 @@
+[
+  {"command": {"defineVariablesCommand": {"env": {}}},
+   "metadata": {"description": "Define variables", "status": "COMPLETED", "duration": 7, "sourceDescription": "Login.yaml", "commandIndex": 0}},
+  {"command": {"launchAppCommand": {"appId": "com.browserstack.demo-app", "clearState": true}},
+   "metadata": {"description": "Launch app \"com.browserstack.demo-app\"", "status": "COMPLETED", "duration": 2700, "sourceDescription": "Login.yaml", "commandIndex": 1}},
+  {"command": {"tapOnElement": {"selector": {"text": "Email"}}},
+   "metadata": {"description": "Tap on \"Email\"", "status": "COMPLETED", "duration": 640, "sourceDescription": "Login.yaml", "commandIndex": 2}},
+  {"command": {"assertConditionCommand": {"condition": {"visible": {"text": "Welcome"}}}},
+   "metadata": {"description": "Assert that \"Welcome\" is visible", "status": "FAILED", "duration": 17000, "sourceDescription": "Login.yaml", "commandIndex": 3,
+                "error": "Assertion is false: \"Welcome\" is visible"}}
+]
